@@ -1,0 +1,4 @@
+android
+=======
+
+broodROM Jellybean Manifest
