@@ -255,7 +255,7 @@
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/RomStats" name="broodplank/android_packages_apps_RomStats" remote="github" revision="master" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="broodplank/packages_apps_Settings" remote="github" revision="master" />
+  <project path="packages/apps/Settings" name="broodplank/android_packages_apps_Settings" remote="github" revision="master" />
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="master" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
