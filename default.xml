@@ -11,18 +11,18 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="CyanogenMod/android_build" remote="github" revision="jb-exp" >
+  <project path="build" name="CyanogenMod/android_build" remote="github" revision="jellybean" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="CyanogenMod/android_bionic" remote="github" revision="jellybean" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="CyanogenMod/bootable_recovery" remote="github" revision="jb" />
+  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="github" revision="jellybean" />
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" remote="github" revision="jellybean" />
   <project path="development" name="platform/development" />
-  <project path="device/asus/grouper" name="CyanogenMod/device_asus_grouper" remote="github" revision="jb" />
+  <project path="device/asus/grouper" name="CyanogenMod/android_device_asus_grouper" remote="github" revision="jellybean" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
@@ -226,31 +226,31 @@
   <project path="libcore" name="CyanogenMod/android_libcore" remote="github" revision="jellybean" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" remote="github" revision="jellybean" />
   <project path="ndk" name="CyanogenMod/android_ndk" remote="github" revision="jellybean" />
-  <project path="packages/apps/BasicSmsReceiver" name="Cyanogenmod/packages_apps_BasicSmsReceiver" remote="github" revision="jellybean" />
-  <project path="packages/apps/Bluetooth" name="CyanogenMod/packages_apps_Bluetooth" remote="github" revision="jellybean" />
-  <project path="packages/apps/Browser" name="CyanogenMod/packages_apps_Browser" remote="github" revision="jellybean" />
+  <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" remote="github" revision="jellybean" />
+  <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" remote="github" revision="jellybean" />
+  <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" remote="github" revision="jellybean" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
-  <project path="packages/apps/Calendar" name="CyanogenMod/packages_apps_Calendar" remote="github" revision="jellybean" />
-  <project path="packages/apps/Camera" name="CyanogenMod/packages_apps_Camera" remote="github" revision="jellybean" />
+  <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" remote="github" revision="jellybean" />
+  <project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" remote="github" revision="jellybean" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="CyanogenMod/packages_apps_Contacts" remote="github" revision="jellybean" />
-  <project path="packages/apps/DeskClock" name="CyanogenMod/packages_apps_DeskClock" remote="github" revision="jellybean" />
+  <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" remote="github" revision="jellybean" />
+  <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" remote="github" revision="jellybean" />
   <project path="packages/apps/DSPManager" name="broodplank/android_packages_apps_DSPManager" remote="github" revision="jellybean" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-  <project path="packages/apps/Gallery2" name="CyanogenMod/packages_apps_Gallery2" remote="github" revision="jellybean" />
+  <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" remote="github" revision="jellybean" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="broodplank/android_packages_apps_Launcher2" remote="github" revision="jellybean" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
-  <project path="packages/apps/Mms" name="CyanogenMod/packages_apps_Mms" remote="github" revision="jellybean" />
+  <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" remote="github" revision="jellybean" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
-  <project path="packages/apps/Nfc" name="CyanogenMod/packages_apps_Nfc" remote="github" revision="jellybean" />
+  <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" remote="github" revision="jellybean" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="CyanogenMod/packages_apps_Phone" remote="github" revision="jellybean" />
+  <project path="packages/apps/Phone" name="CyanogenMod/android_packages_apps_Phone" remote="github" revision="jellybean" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/RomStats" name="broodplank/android_packages_apps_RomStats" remote="github" revision="master" />
@@ -265,7 +265,7 @@
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="CyanogenMod/packages_inputmethods_LatinIME" remote="github" revision="jellybean" />
+  <project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" remote="github" revision="jellybean" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
@@ -273,9 +273,9 @@
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
-  <project path="packages/providers/MediaProvider" name="CyanogenMod/packages_providers_MediaProvider" remote="github" revision="jellybean" />
+  <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" remote="github" revision="jellybean" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="CyanogenMod/packages_providers_TelephonyProvider" remote="github" revision="jellybean" />
+  <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" remote="github" revision="jellybean" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
