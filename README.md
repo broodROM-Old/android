@@ -1,17 +1,22 @@
 broodROM Jellybean Manifest
 ===========================
-Release 1
-
-
-Instructions:
+Version: Release 2
 -------------
+
+You may clone broodROM JB manifest for educational purposes only. 
+Releasing broodROM JB is not allowed, unless you ask me permission to port it to an other device
+
+- www.broodplank.net
+
+
+
 
 Download:
 ===========================
 - mkdir ~/broodROM
 - cd ~/broodROM
-- repo init -u https://github.com/broodplank/manifest.git
-- repo sync -j16
+- repo init -u https://github.com/broodplank/android -b jellybean
+- repo sync -j16 (for 100mbit)
  
  
  
