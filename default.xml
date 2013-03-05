@@ -20,8 +20,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="CyanogenMod/android" />
-
+  <project path="android" name="broodplank/android" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
   <project path="bionic" name="CyanogenMod/android_bionic" />
@@ -39,7 +38,7 @@
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" />
   <project path="device/ti/panda" name="CyanogenMod/android_device_ti_panda" />
-  <project path="device/samsung/ariesve" name="broodplank/android_device_samsung_ariesve"/>
+  <project path="device/samsung/ariesve" name="broodplank/android_device_samsung_ariesve" revision="jb-3.0" />
   <project path="docs/source.android.com" name="CyanogenMod/android_docs_source.android.com" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" />
   <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" />
@@ -197,8 +196,8 @@
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
-  <project path="frameworks/av" name="ivendor/android_frameworks_av" />
-  <project path="frameworks/base" name="broodplank/android_frameworks_base" />
+  <project path="frameworks/av" name="ivendor/android_frameworks_av" revision="jellybean" />
+  <project path="frameworks/base" name="broodplank/android_frameworks_base" revision="jellybean" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" />
   <project path="frameworks/compile/linkloader" name="CyanogenMod/android_frameworks_compile_linkloader" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" />
@@ -206,7 +205,7 @@
   <project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" />
   <project path="frameworks/mff" name="CyanogenMod/android_frameworks_mff" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" />
-  <project path="frameworks/native" name="ivendor/android_frameworks_native" />
+  <project path="frameworks/native" name="ivendor/android_frameworks_native" revision="jellybean" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" />
   <project path="frameworks/opt/emoji" name="CyanogenMod/android_frameworks_opt_emoji" />
   <project path="frameworks/opt/inputmethodcommon" name="CyanogenMod/android_frameworks_opt_inputmethodcommon" />
@@ -223,8 +222,8 @@
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" />
   <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" />
-  <project path="hardware/qcom/audio" name="ivendor/android_hardware_qcom_audio" />
-  <project path="hardware/qcom/display" name="ivendor/android_hardware_qcom_display" />
+  <project path="hardware/qcom/audio" name="ivendor/android_hardware_qcom_audio" revision="jellybean" />
+  <project path="hardware/qcom/display" name="ivendor/android_hardware_qcom_display" revision="jellybean" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" />
@@ -235,41 +234,40 @@
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" />
   <project path="ndk" name="CyanogenMod/android_ndk" />
-  <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" />
-  <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
-  <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
-  <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
+  <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver"  remote="aosp" revision="jb-dev" />
+  <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth"remote="aosp" revision="jb-dev" />
+  <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser"  remote="aosp" revision="jb-dev" />
+  <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator"  remote="aosp" revision="jb-dev" />
+  <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar"  remote="aosp" revision="jb-dev" />
   <project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" />
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" />
-  <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
-  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" />
-  <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" />
-  <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
+  <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock"  remote="aosp" revision="jb-dev" />
+  <project path="packages/apps/DSPManager" name="broodplank/android_packages_apps_DSPManager" revision="jellybean" />
+  <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" remote="aosp" revision="jb-dev" />
+  <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange"  remote="aosp" revision="jb-dev" />
   <project path="packages/apps/Gallery" name="CyanogenMod/android_packages_apps_Gallery" />
   <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" />
-  <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
-  <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
-  <project path="packages/apps/Launcher2" name="broodplank/android_packages_apps_Launcher2" />
+  <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer"  remote="aosp" revision="jb-dev" />
+  <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" remote="aosp" revision="jb-dev" />
+  <project path="packages/apps/Launcher2" name="broodplank/android_packages_apps_Launcher2" revision="jellybean" />
   <project path="packages/apps/LegacyCamera" name="CyanogenMod/android_packages_apps_LegacyCamera" />
-  <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" />
-  <project path="packages/apps/Music" name="CyanogenMod/android_packages_apps_Music" />
-  <project path="packages/apps/MusicFX" name="CyanogenMod/android_packages_apps_MusicFX" />
-  <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
-  <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
+  <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" remote="aosp" revision="jb-dev" />
+  <project path="packages/apps/Music" name="CyanogenMod/android_packages_apps_Music" remote="aosp" revision="jb-dev" />
+  <project path="packages/apps/MusicFX" name="CyanogenMod/android_packages_apps_MusicFX"  remote="aosp" revision="jb-dev" />
+  <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc"remote="aosp" revision="jb-dev" />
+  <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" remote="aosp" revision="jb-dev" />
   <project path="packages/apps/Phone" name="CyanogenMod/android_packages_apps_Phone" />
-  <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" />
-  <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
+  <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision"  remote="aosp" revision="jb-dev" />
+  <project path="packages/apps/RomStats" name="broodplank/android_packages_apps_RomStats" revision="master" />
   <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" />
-  <project path="packages/apps/Settings" name="broodplank/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="broodplank/android_packages_apps_Settings" revision="master" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpareParts" name="CyanogenMod/android_packages_apps_SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" />
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" />
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" />
-  <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
   <project path="packages/apps/VideoEditor" name="CyanogenMod/android_packages_apps_VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" />
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
@@ -331,5 +329,5 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
-  <project path="vendor/samsung/ariesve" name="broodplank/android_vendor_samsung_ariesve"/>
+  <project path="vendor/samsung/ariesve" name="broodplank/android_vendor_samsung_ariesve" revision="jellybean" />
 </manifest>
