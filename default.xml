@@ -207,7 +207,7 @@
   <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" remote="github" revision="jellybean" />
   <project path="frameworks/testing" name="CyanogenMod/android_frameworks_testing" remote="github" revision="jellybean" />
   <project path="frameworks/wilhelm" name="CyanogenMod/android_frameworks_wilhelm" remote="github" revision="jellybean" />
-  <project path="gdk" name="platform/gdk" remote="github" revision="jellybean" />
+  <project path="gdk" name="platform/gdk" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="github" revision="jellybean" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="github" revision="jellybean" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" remote="github" revision="jellybean" />
