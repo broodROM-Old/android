@@ -234,6 +234,7 @@
   <project path="packages/apps/Camera" name="broodplank/android_packages_apps_Camera" remote="github" revision="jellybean" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
+  <project path="packages/apps/CMFileManager" name="broodplank/android_packages_apps_CMFileManager" remote="github" revision="jellybean" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" remote="github" revision="jellybean" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/DSPManager" name="broodplank/android_packages_apps_DSPManager" remote="github" revision="jellybean" />
@@ -262,6 +263,7 @@
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
+  <project path="packages/apps/TerminalEmulator" name="broodplank/android_packages_apps_TerminalEmulator" remote="github" revision="master" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
