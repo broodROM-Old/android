@@ -1,6 +1,6 @@
 broodROM Jellybean Manifest
 ===========================
-Version: Release 2
+Version: Release 3
 -------------
 
 You may clone broodROM JB manifest for educational purposes only. 
