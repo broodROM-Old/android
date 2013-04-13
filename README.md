@@ -1,6 +1,6 @@
 broodROM Jellybean Manifest
 ===========================
-Version: Release 3
+Version: Release 4
 -------------
 
 You may clone broodROM JB manifest for educational purposes only. 
@@ -17,6 +17,8 @@ Download:
 - cd ~/broodROM
 - repo init -u https://github.com/broodplank/android -b jellybean
 - repo sync -j16 (for 100mbit)
+
+(Advised is repo sync, using the -j option can cause timeouts while downloading from github)
  
  
  
