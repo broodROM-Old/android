@@ -13,6 +13,7 @@
 
   <project path="build" name="broodplank/android_build" remote="github" revision="master" >
     <copyfile src="core/root.mk" dest="Makefile" />
+    <copyfile src="build.sh" dest="build.sh" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="CyanogenMod/android_bionic" remote="github" revision="jellybean" />
