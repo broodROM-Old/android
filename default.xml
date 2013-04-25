@@ -226,6 +226,7 @@
   <project path="libcore" name="CyanogenMod/android_libcore" remote="github" revision="jellybean" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" remote="github" revision="jellybean" />
   <project path="ndk" name="CyanogenMod/android_ndk" remote="github" revision="jellybean" />
+  <project path="packages/apps/AutoGPS" name="broodplank/android_packages_apps_AutoGPS" remote="github" revision="master" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" remote="github" revision="jellybean" />
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" remote="github" revision="jellybean" />
   <project path="packages/apps/Browser" name="broodplank/android_packages_apps_Browser" remote="github" revision="master" />
