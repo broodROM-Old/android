@@ -228,6 +228,7 @@
   <project path="ndk" name="CyanogenMod/android_ndk" remote="github" revision="jellybean" />
   <project path="packages/apps/AutoGPS" name="broodplank/android_packages_apps_AutoGPS" remote="github" revision="master" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" remote="github" revision="jellybean" />
+  <project path="packages/apps/BackupMan" name="broodplank/android_packages_apps_BackupMan" remote="github" revision="master" />
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" remote="github" revision="jellybean" />
   <project path="packages/apps/Browser" name="broodplank/android_packages_apps_Browser" remote="github" revision="master" />
   <project path="packages/apps/broodParts" name="broodplank/android_packages_apps_broodParts" remote="github" revision="master" />
