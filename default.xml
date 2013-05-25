@@ -30,6 +30,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
   <project path="device/samsung/ariesve" name="broodROM/android_device_samsung_ariesve" remote="github" revision="jb-3.0" />
+  <project path="device/samsung/ancora" name="broodROM/android_device_samsung_ancora" remote="github" revision="jb-3.0" />
   <project path="device/sample" name="device/sample" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" remote="github" revision="jellybean" />
@@ -319,4 +320,5 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" remote="github" revision="jellybean" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" remote="github" revision="jellybean" />
   <project path="vendor/samsung/ariesve" name="broodROM/android_vendor_samsung_ariesve" remote="github" revision="jellybean" />
+  <project path="vendor/samsung/ancora" name="broodROM/android_vendor_samsung_ancora" remote="github" revision="jellybean" />
 </manifest>
